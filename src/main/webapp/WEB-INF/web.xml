@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          id="WebApp_ID" version="3.0">
 
-  <welcome-file-list>
-    <welcome-file>/jsp/index.jsp</welcome-file>
-  </welcome-file-list>
+<welcome-file-list>
+  <welcome-file>/jsp/index.jsp</welcome-file>
+</welcome-file-list>
   <!--配置全局参数 -->
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:mybatis-cfg.xml</param-value>
+    <param-value>classpath:spring-*.xml</param-value>
   </context-param>
 
 

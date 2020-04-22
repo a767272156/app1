@@ -7,7 +7,7 @@
 		<div class="x_panel">
 			<div class="x_title">
 				<h2>
-					APP 信息管理维护 <i class="fa fa-user"></i><small>${devUserSession.devName}
+					APP 信息管理维护 <i class="fa fa-user"></i><small>${devUser.devName}
 						- 您可以通过搜索或者其他的筛选项对APP的信息进行修改、删除等管理操作。^_^</small>
 				</h2>
 				<div class="clearfix"></div>
@@ -24,7 +24,6 @@
 							</div>
 						</div>
 					</li>
-					
 					<li>
 						<div class="form-group">
 							<label class="control-label col-md-3 col-sm-3 col-xs-12">APP状态</label>
@@ -34,7 +33,8 @@
 									   <option value="">--请选择--</option>
 									   <c:forEach var="dataDictionary" items="${statusList}">
 									   		<option <c:if test="${dataDictionary.valueId == queryStatus }">selected="selected"</c:if>
-									   		value="${dataDictionary.valueId}">${dataDictionary.valueName}</option>
+													value="${dataDictionary.valueId}">${dataDictionary.valueName}
+									   		</option>
 									   </c:forEach>
 									</c:if>
         						</select>

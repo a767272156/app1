@@ -11,7 +11,7 @@
       </div>
       <div class="x_content">
 	  <!-- <div class="item form-group">
-               <label class="control-label col-md-3 col-sm-3 col-xs-12" ></label>
+               <label class="controller-label col-md-3 col-sm-3 col-xs-12" ></label>
                <div class="col-md-6 col-sm-6 col-xs-12">
                  <form action="uploadlogo" class="dropzone" style="height:100px;">
                  </form>
