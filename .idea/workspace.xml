@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="app:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89eeb1f4-1853-40ff-87dd-11266f647737" name="Default Changelist" comment="测试">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/controller/developer/DevController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/controller/developer/SDAFController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/dao/AppCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/dao/AppSearch1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/dao/DevUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/AppCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/AppSearch1Mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/DevUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/pojo/AppCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/pojo/DataDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/pojo/DevUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppSearch1Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppSearch1ServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/service/developer/DevUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/hws/service/developer/DevUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backend/appcheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backend/applist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backend/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backend/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backend/common/js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backend/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/backendlogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/appinfoadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/appinfolist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/appinfomodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/appinfoview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/appversionadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/appversionmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/common/js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/developer/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/devlogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/bootstrap-progressbar-3.3.4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/jqvmap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/maps/jquery-jvectormap-2.0.3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/nprogress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/cropper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/inbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/media.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/prod-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/images/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/datepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/nprogress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localcss/appinfoadd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localcss/appinfolist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localcss/applist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appcheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfoadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfolist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfomodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appinfoview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/applist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appversionadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/appversionmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/statics/localjs/rollpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/META-INF/app.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/org/hws/service/developer/DevUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/org/hws/service/developer/DevUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.29.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet-api-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.46.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/backendlogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/appinfoadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/appinfolist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/appinfomodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/appinfoview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/appversionadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/appversionmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/common/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/common/js.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/developer/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/devlogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/app-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/app.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/hws/service/developer/DevUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/hws/service/developer/DevUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/pojo/DataDictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/pojo/DevUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppCategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppCategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppSearch1Service.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppSearch1ServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/DevUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4175">
+              <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/DevUserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/springframework/web/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/mapper/backend/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/service/backend/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/service/backend/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/mapper/backend/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/controller/backend/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/dao/developer/DevLoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/dao/developer/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/developer/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/controller/developer/DevLoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/Search.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/SearchMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/controller/developer/DevController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/dao/AppCategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/dao/AppSearch1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/dao/DevUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/AppCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/AppSearch1Mapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/DevUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppCategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppSearch1Service.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppSearch1ServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/service/developer/DevUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hws/service/developer/DevUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="350" />
+    <option name="y" value="132" />
+    <option name="width" value="1225" />
+    <option name="height" value="840" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hws" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hws" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="developer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hws" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hws" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hws" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="developer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hws" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hws" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hws" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="developer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\app\src\main\resources" />
+      <recent name="G:\app\src\main\java\org\hws" />
+      <recent name="G:\app\src\main\webapp" />
+      <recent name="G:\app\src\main\java\org\hws\mapper\developer" />
+      <recent name="G:\app\src\main\java\org\hws\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\app\src\main\java\org\hws\mapper\developer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="12" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="app:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_app" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59480" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="app:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89eeb1f4-1853-40ff-87dd-11266f647737" name="Default Changelist" comment="" />
+      <created>1587448373016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587448373016</updated>
+      <workItem from="1587448446600" duration="9135000" />
+      <workItem from="1587479445869" duration="8293000" />
+      <workItem from="1587519551681" duration="2332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19760000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.74651814" visible="true" weight="0.20842217" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.2534819" side_tool="true" visible="true" weight="0.20842217" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.22125813" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32963988" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32963988" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.5362947" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.3286334" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/springframework/web/servlet/DispatcherServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/springmvc.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/backend/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/mapper/backend/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/mapper/backend/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/controller/backend/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/backend/UserServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/dao/developer/DevLoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/developer/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/statics/js/moment/moment.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backendlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/devlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/controller/developer/DevLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/backend/common/js.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/SearchMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/controller/developer/DevController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/dao/AppCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/dao/AppSearch1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/dao/DevUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/AppCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/AppSearch1Mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/mapper/developer/DevUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/pojo/AppCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/pojo/DataDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/pojo/DevUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppSearch1Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/AppSearch1ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/DevUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hws/service/developer/DevUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4175">
+          <caret line="168" column="16" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
